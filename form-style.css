@@ -1,0 +1,31 @@
+
+/*---  Radio Button Styles ---*/
+.radio { height: 24px; width: 24px; clear: right;  float:right;  margin: 5px 0px 0px 15px;  padding: 0 0 0 0; background: url(../images/RadioButton.png); background-repeat: no-repeat; cursor: default; cursor: pointer;}
+.radio input {display: none;}
+/*---  File Uploader Styles ---*/
+.filebrowser { position:relative; }
+#drop {}
+#drop a {padding: 10px 60px; color: #fff; font-size: 20px; cursor: pointer; display: inline-block; line-height: 1; float: left;  margin-right:1px; text-decoration:none;}
+#drop a:hover {text-decoration: none;}
+.browse {padding: 10px 60px !important; color: #fff; font-size:20px !important; font-family:'alegreya_sansmedium', Arial, sans-serif;  cursor: pointer; display: inline-block; line-height: 1; float: left !important; background:#413a39 !important;}
+.browse:hover {background:#000 !important; text-decoration: none;}
+.dropadd {padding: 10px 60px !important; color: #fff; font-size:20px !important; font-family:'alegreya_sansmedium', Arial, sans-serif;  cursor: pointer; display: inline-block; line-height: 1; float: left !important; background:#8d8988 !important;}
+.dropadd:hover {background:#eaa628 !important; text-decoration: none;}
+#drop input { visibility:visible; position: absolute !important; float:none; left:0px; top:0px; margin: 0px; padding: 0px; height:37px; color:#fff; width:100px !important; margin-right:80px !important; margin-top:-2px !important; opacity: 0; z-index: 1; /* In case you use an img for input button */ border:0 !important; cursor:pointer;}
+.ie8 #drop #browsefile {background-color:#fff;}
+.fileuploader {width: 100%; background-color: #fff; padding: 2%; clear: both; margin:20px 0px 0px 0px; display: none; border:solid 1px #d9d9d9; float:left;}
+.filelist {}
+.filelist li {float:left !important; clear: both; width:100% !important; list-style: none; border-bottom: solid 1px #e5e5e5; padding-bottom: 1%; padding-top: 1%; margin-left:0 !important;}
+.filelist li:last-child {border-bottom: none;}
+.fileicon {float: left; margin-right: 2%;}
+.filename {float: left; font-size: 0.9em; padding-right: 1%; width: 100%; overflow: hidden; text-align: left;}
+.loader {float: left;}
+.filesize {float: left; font-size: 0.9em; padding-left:1%; padding-right: 1%;}
+.fileClose {cursor: pointer; float: right;}
+.formcolumn { margin-bottom:20px;}
+.file-attach { padding:0px 10px; height:40px; line-height:40px; font-size:13px; color:#343434; border:none; background:#f0f0f0; border-radius:0px; box-shadow:none; font-family:'sf_ui_textlight', Arial, sans-serif; width:100%; }
+.fileicon {  float: left; margin-right: 2%; margin-top:3px;}
+.filename {	float: left;	font-size: 0.9em; padding-right: 1%; width: 46%; 	overflow: hidden; text-align: left; margin-top:5px;}
+.loader { float: left; margin-top:5px; }
+.filesize { float: left; font-size: 0.9em; padding-left: 1.5%; padding-right: 1%;  margin-top:5px;}
+.fileClose { cursor: pointer; float: right; margin-top:5px;}
